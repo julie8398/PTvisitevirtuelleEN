@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Virtual tour of Centrale Marseille</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons" id="fond">
+
+  <div id="pano"></div>
+  <div id="sceneList">
+    <ul class="menu">
+      <li class="titremenu" id="menu1">Espaces extérieurs</li>
+      <li class="titremenu" id="menu2">Enseignement</li>
+      <li class="titremenu" id="menu3">Sport</li>
+      <li class="titremenu" id="menu4">Vie associative</li>
+    </ul>
+  </div>
+  
+  <div class="sousmenu">
+    <ul id="sousmenu1">
+      <a href="javascript:void(0)" class="scene" data-id="0-newamphi-60"> <li class="text">Entrée principale</li> </a>  
+      <a href="javascript:void(0)" class="scene" data-id="1-devant-hangar"> <li class="text">Entrée secondaire</li> </a> 
+      <a href="javascript:void(0)" class="scene" data-id="3-passerelle-23"> <li class="text">Passerelle</li></a>   
+      <a href="javascript:void(0)" class="scene" data-id="9-rue-haute-pc-securite"> <li class="text">Rue haute 1</li></a>   
+      <a href="javascript:void(0)" class="scene" data-id="5-rue_haute_antenne"> <li class="text">Rue haute 2</li></a>   
+    </ul>
+    <ul id="sousmenu2">
+      <a href="javascript:void(0)" class="scene" data-id="4-salle-de-cours-0"> <li class="text">Salle de cours</li> </a> 
+      <a href="javascript:void(0)" class="scene" data-id="2-nouvelamphi-20"> <li class="text">Nouvel Amphithéâtre</li> </a>
+      <a href="javascript:void(0)" class="scene" data-id="12-namphi16"> <li class="text">Hall Nouvel Amphithéâtre</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="7-cdi-v3"> <li class="text">CDI</li></a>
+     </ul>
+    <ul id="sousmenu3">
+      <a href="javascript:void(0)" class="scene" data-id="10-dojo"> <li class="text">Dojo</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="8-muscu-v3"> <li class="text">Salle de musculation</li></a>  
+    </ul>
+    <ul id="sousmenu4">
+      <a href="javascript:void(0)" class="scene" data-id="6-foys10-recupere-2"> <li class="text">Foy's</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="11-fablab"> <li class="text">Fablab</li></a>
+    </ul>
+  </div>
+
+  <div id="titleBar">
+     <h1 class="sceneName"></h1>
+  </div>
+
+    <a href="javascript:void(0)" id="autorotateToggle">
+      <img class="icon off" src="img/play.png">
+      <img class="icon on" src="img/pause.png">
+    </a>
+
+    <a href="javascript:void(0)" id="fullscreenToggle">
+      <img class="icon off" src="img/fullscreen.png">
+      <img class="icon on" src="img/windowed.png">
+    </a>
+
+    <a href="javascript:void(0)" id="sceneListToggle">
+      <span>MENU</span>
+    </a>
+    <span id ="return" style="display : none"><img id="imgreturn" src="img/return.png"></span>
+    <span id ="punaise"><img id="imgpunaise" src="img/punaise.png"></span>
+    <span id ="logo"><img id="imglogo" src="img/logo.png"></span>
+    <span id ="francais"><img id="imgfrancais" src="img/francais.png"></span>
+    <span id ="anglais"><img id="imganglais" src="img/anglais.png"></span>
+
+    <p id="bouton">
+      <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+        <img class="icon" src="img/up.png">
+      </a>
+      <a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+        <img class="icon" src="img/down.png">
+      </a>
+      <a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+        <img class="icon" src="img/left.png">
+      </a>
+      <a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+        <img class="icon" src="img/right.png">
+      </a>
+      <a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+        <img class="icon" src="img/plus.png">
+      </a>
+      <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+        <img class="icon" src="img/minus.png">
+      </a>
+    <script src="vendor/es5-shim.js"></script>
+    <script src="vendor/eventShim.js"></script>
+    <script src="vendor/classList.js"></script>
+    <script src="vendor/requestAnimationFrame.js" ></script>
+    <script src="vendor/screenfull.min.js" ></script>
+    <script src="vendor/bowser.min.js" ></script>
+    <script src="vendor/marzipano.js" ></script>
+
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+  </span>
+</body>
+</html>
