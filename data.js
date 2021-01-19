@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-newamphi-60",
-      "name": "Entrée principale",
+      "name": "Main entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -49,13 +49,13 @@ var APP_DATA = {
           "yaw": -1.1,
           "pitch": -0.15,
           "title": "Centrale Marseille",
-          "text": "Centrale Marseille est une jeune école qui est née en 2006. Elle est héritière d’une histoire plus que centenaire. De plus, elle est avant tout une École Centrale, à ce titre elle partage avec les autres Écoles Centrales les mêmes modalités d’accès, le même modèle pédagogique, des relations internationales mutualisées et une conception identique de l’ingénieur. Centrale Marseille est un Établissement Public à Caractère Scientifique, Culturel et Professionnel. Elle est située à Marseille, au cœur du Technopôle de Château-Gombert où se croisent établissements d’enseignement supérieur, centres de recherche et entreprises dans le 13ème arrondissement, au pied du massif de l’Étoile. L’École est facilement accessible en transport en commun (métro et bus) depuis le centre ville de Marseille. Plusieurs résidences étudiantes proposent des logements à proximité.&nbsp;<br>L’École centrale de Marseille est dotée de locaux et d’équipements adaptés aux enjeux de la pédagogie et de la recherche. Centrale Marseille s’engage aussi fortement en faveur de la vie associative des élèves et accueille, chaque année, de nombreuses manifestations.&nbsp;<br>Plus d’information sur le site Internet : https://www.centrale-marseille.fr"
+          "text": "If Centrale Marseille is a young school (which became 'Centrale' in 2006), it nevertheless inherits a history of more than a hundred years. As such, today it shares, with the other Écoles Centrales, a common DNA based on a pedagogical model, shared international relations and an identical conception of the engineer. &nbsp;<br>Centrale Marseille is a Public Establishment of a Scientific, Cultural and Professional Nature. It is located in Marseille, in the heart of the Château-Gombert Technopole where higher education institutions, research centres and companies meet in the 13th arrondissement, at the foot of the Étoile massif. The School is easily accessible by public transport (metro and bus) from the city centre of Marseille. Several student residences offer accommodation nearby. &nbsp;<br>The School is equipped with premises and facilities adapted to the challenges of teaching and research. Centrale Marseille is also strongly committed to the students' community life and hosts numerous events every year.&nbsp;<br>More information on the website: https://www.centrale-marseille.fr and https://choisir.centrale-marseille.fr."
         }
       ]
     },
     {
       "id": "1-devant-hangar",
-      "name": "Entrée secondaire",
+      "name": "Secondary entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -102,7 +102,7 @@ var APP_DATA = {
     },
     {
       "id": "2-nouvelamphi-20",
-      "name": "Nouvel Amphithéâtre",
+      "name": "New Amphitheatre",
       "levels": [
         {
           "tileSize": 256,
@@ -136,8 +136,8 @@ var APP_DATA = {
         {
           "yaw": -0.8,
           "pitch": 0.1,
-          "title": "Présentation de la formation",
-          "text": "L’École centrale de Marseille forme des ingénieurs généralistes à haut niveau scientifique. Centrale Marseille a conçu un cursus unique qui permet aux élèves de devenir les auteurs de leur propre parcours. De nombreuses opportunités sont offertes aux étudiants. En effet les trois premiers semestres sont construits autour d’un rythme unique, à savoir l’alternance de trois semaines académiques et une semaine d’alternance : &nbsp;<br> - Train’ing (ce sont des semaines de professionnalisation) &nbsp;<br> - Alternance entreprise &nbsp;<br> - Alternance recherche &nbsp;<br> - Alternance auto-entreprenariat &nbsp;<br> Les semestres suivants permettent de personnaliser la formation. Centrale Marseille propose une multitude de combinaisons et d’opportunités : semestres thématiques, césure libre ou académique, projets, mobilité internationale, option d’approfondissement, filière métier, stages... C’est l’occasion d’affirmer sa personnalité et de se projeter dans un avenir professionnel. &nbsp;<br> &nbsp;<br> Plus d’informations sur la formation et les nombreuses opportunités ici : https://formation.centrale-marseille.fr/fr"
+          "title": "Presentation of the formation",
+          "text": "The Ecole Centrale de Marseille trains generalist engineers at a high scientific level. Centrale Marseille has designed a unique curriculum that allows students to become the authors of their own career path. Numerous opportunities are offered to students. Indeed, the first three semesters are built around a unique rhythm, alternating between three academic weeks and one week of work-study :&nbsp;<br> - Train'ing (these are professionalization weeks)&nbsp;<br> - Company work-study programme&nbsp;<br> - Research work experience&nbsp;<br> - Alternating self-entrepreneurship&nbsp;<br> The following semesters allow you to personalise the training. Centrale Marseille offers a multitude of combinations and opportunities: theme-based semesters, free or academic break, projects, international mobility, in-depth study option, professional training, internships, etc. It is an opportunity to assert one's personality and project oneself into a professional future.&nbsp;<br> &nbsp;<br>More information on training and the many opportunities here : https://formation.centrale-marseille.fr/fr"
         }
       ]
     },
@@ -190,7 +190,7 @@ var APP_DATA = {
     },
     {
       "id": "4-salle-de-cours-0",
-      "name": "Salle de cours",
+      "name": "Classroom",
       "levels": [
         {
           "tileSize": 256,
@@ -277,8 +277,8 @@ var APP_DATA = {
         {
           "yaw": 8.5,
           "pitch": -0.2,
-          "title": "L'anTenne",
-          "text": "L’anTenne est un lieu  d'écoute et de soutien à disposition des étudiants : permanences d'une assistante sociale, information et sensibilisation aux détresses et au mal-être étudiant. C'est un espace neutre, chaleureux, pour échanger en toute confidentialité. &nbsp;<br> &nbsp;<br> Voici les services proposés par l'anTenne : &nbsp;<br> - 0 800 602 033 numéro vert gratuit : un service d’écoute et d’accompagnement psychologique accessible à distance 24 h/24 et 7 jours sur 7, permettant entre autre, des entretiens en présentiel avec des psychologues, pris en charge par Centrale Marseille. &nbsp;<br> - Des temps d'information et de prévention, animés par des professionnels (juridiques, sociaux, etc.) à l’attention des élèves et du personnel. &nbsp;<br> - L’accès à de la documentation &nbsp;<br> &nbsp;<br> Un groupe de prévention a été aussi mis en place. &nbsp;<br> Il est constitué d’une part du personnel enseignant et administratif en lien dans leur quotidien avec les élèves et, d’autre part, d’élèves représentants élus des instances et associations de l’École. Ce groupe est régulièrement formé à la détection, l’écoute et l’orientation des élèves." 
+          "title": "The anTenne",
+          "text": "The anTenne is a place where students can be listened to and supported: a social worker is on duty, and information and awareness raising on student distress and ill-being is provided. It is a neutral, warm and friendly place to exchange ideas in complete confidentiality.&nbsp;<br> Here are the services offered by l'anTenne:&nbsp;<br> - 0 800 602 033 free toll-free number: a listening and support service psychological counselling accessible remotely 24 hours a day, 7 days a week, allowing, among other things, face-to-face interviews with psychologists, supported by Centrale Marseille.&nbsp;<br> - Information and prevention times, led by professionals (legal, social, etc.) for pupils and staff.&nbsp;<br> - Access to documentation &nbsp;<br> A prevention group has also been set up. It is made up, on the one hand, of teaching and administrative staff who are in daily contact with pupils and, on the other hand, of pupil elected representatives of the school's bodies and associations. This group is regularly trained to detect, listen to and guide pupils." 
         }
       ]
     },
@@ -319,13 +319,13 @@ var APP_DATA = {
           "yaw": -0.62,
           "pitch": -0.15,
           "title": "Le Foy's",
-          "text": "Le Foy’s est un endroit chaleureux où les étudiants peuvent se retrouver pour faire un baby foot, un billard, des jeux de sociétés... Les étudiants s’y retrouvent aussi pour de nombreux événements organisés par les diverses associations de l'école." 
+          "text": "The Foy's is a cosy place where students can get together to play table football, billiards, board games... Students also meet there for many events organised by various associations." 
         }
       ]
     },
     {
       "id": "7-cdi-v3",
-      "name": "CDI",
+      "name": "School library",
       "levels": [
         {
           "tileSize": 256,
@@ -360,7 +360,7 @@ var APP_DATA = {
     },
     {
       "id": "8-muscu-v3",
-      "name": "Salle de musculation",
+      "name": "Weights room",
       "levels": [
         {
           "tileSize": 256,
@@ -394,8 +394,8 @@ var APP_DATA = {
         {
           "yaw": 0.5,
           "pitch": -0.1,
-          "title": "La salle de musculation",
-          "text": "La salle de musculation comporte de nombreux équipements qui sont à la disposition des étudiants de l’École centrale de Marseille. Des cours de sports sont aussi donnés dans cette salle : &nbsp;<br> - Tabata &nbsp;<br> - Musculation &nbsp;<br> - Step"
+          "title": "Weights room",
+          "text": "The weights room has many facilities available for students of the Ecole Centrale de Marseille. Sports classes are also given in this room : &nbsp;<br> - Tabata &nbsp;<br> - Bodybuilding &nbsp;<br> - Step"
         }
       ]
     },
@@ -447,8 +447,8 @@ var APP_DATA = {
         {
           "yaw": -0.2,
           "pitch": -0.1,
-          "title": "Espace de travail",
-          "text": "Cette rue, nommée la rue 'haute' est comme la colonne vertébrale de l'établissement. De nombreux espaces de travail en extérieur ont été aménagés en 2020 à Centrale Marseille pour permettre aux étudiants d’avoir les meilleures conditions de travail possible."
+          "title": "Work spaces",
+          "text": "This street, called the 'haute' street, is like the backbone of the establishment. Numerous outdoor work spaces were fitted out in 2020 at Centrale Marseille to enable students to have the best possible working conditions."
         }
       ]
     },
@@ -488,8 +488,8 @@ var APP_DATA = {
         {
           "yaw": 7,
           "pitch": -0.1,
-          "title": "Le dojo",
-          "text": "Le dojo de Centrale Marseille a été inauguré en 2014. De nombreux sports sont pratiqués : - la boxe française &nbsp;<br> - le yoga &nbsp;<br> - les entraînements des pompoms &nbsp;<br> - le crossfit &nbsp;<br> - la zumba &nbsp;<br> &nbsp;<br> D’autres sports se font en plein air comme le football, le rugby, la randonnée, la voile et pleins d’autres encore, ou en gymnase comme le basketball, le handball…"
+          "title": "The dojo",
+          "text": "The Centrale Marseille dojo was inaugurated in 2014. Many sports are practiced : &nbsp;<br> - French boxing &nbsp;<br> - yoga &nbsp;<br> - cheerleading &nbsp;<br> - crossfit &nbsp;<br> - zumba &nbsp;<br> Other sports can be played outdoors, such as football, rugby, hiking, sailing and many others, or in a gym, like basketball, handball..."
         }
       ]
     },
@@ -529,14 +529,14 @@ var APP_DATA = {
         {
           "yaw": 2,
           "pitch": -0.1,
-          "title": "Le Fablab",
-          "text": "Le FabLab est un espace dédié à la créativité et au bricolage. Ouvert en 2012, il est géré par une des associations étudiantes de Centrale Marseille, mais est ouvert à tous. De nombreuses machines de haute technologie sont disponibles, comme des imprimantes 3D et des découpeuses laser permettant aux étudiants de réaliser de nombreux projets. &nbsp;<br> Chaque année des Repair Cafés et des formations sont réalisées pour apprendre à utiliser les machines et pour donner de nombreux conseils."
+          "title": "The Fablab",
+          "text": "The FabLab is a space dedicated to creativity and DIY. Opened in 2012, it is managed by one of Centrale Marseille's student associations, but is open to all. Many high-tech machines are available, such as 3D printers and laser cutters allowing students to carry out numerous projects. &nbsp;<br> Every year Repair Cafés and training courses are held to learn how to use the machines and to give lots of advice."
         }
       ]
     },
     {
       "id": "12-namphi16",
-      "name": "Hall Nouvel Amphithéâtre",
+      "name": "New Amphitheatre's hall",
       "levels": [
         {
           "tileSize": 256,
@@ -582,8 +582,8 @@ var APP_DATA = {
         {
           "yaw": -0.2,
           "pitch": -0.1,
-          "title": "Nouvel Amphitéâtre",
-          "text": "Le nouvel amphithéâtre de Centrale Marseille a été inauguré le 16 octobre 2019. &nbsp;<br> Il a été créé pour pouvoir accueillir une promotion entière (soit 300 élèves). &nbsp;<br> Le bâtiment est hautement connecté. Il permet donc la captation vidéo en direct du public et de la salle, l’enregistrement des enseignements et la pratique des cours à distance. Sa forme ovoïde favorise un confort optimum de vision."
+          "title": "New Amphiteatre",
+          "text": "Centrale Marseille's new amphitheatre was inaugurated on the 16th October 2019. &nbsp;<br> It was created to welcome an entire class (300 students). &nbsp;<br> The building is highly connected. It allows live video recording of the audience and the auditorium, the recording of lessons and the practice of distance learning. Its ovoid shape provides optimum viewing comfort. "
         }
       ]
     }
